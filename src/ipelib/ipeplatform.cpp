@@ -56,7 +56,7 @@
 #endif
 
 // for version info only
-#include <spiroentrypoints.h>
+//#include <spiroentrypoints.h>
 
 #include <cstdlib>
 #include <sys/types.h>

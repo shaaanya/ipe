@@ -36,6 +36,7 @@ IPEICO =
 endif
 IPEICNS = ../build/ipe.icns
 
+
 .PHONY: all manual epub book documentation $(subdirs)
 
 all: $(subdirs)

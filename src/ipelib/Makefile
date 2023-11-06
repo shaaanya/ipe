@@ -10,7 +10,9 @@ MAKE_SYMLINKS = $(call dll_symlinks,ipe)
 SONAME = $(call soname,ipe)
 INSTALL_SYMLINKS = $(call install_symlinks,ipe)
 
+
 CPPFLAGS += -I../include
+
 ifdef IPEBUNDLE
 CPPFLAGS += -DIPEBUNDLE
 endif
